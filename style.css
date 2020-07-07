@@ -20,16 +20,16 @@ nav{
     height: 100vh;
     width: 100%;
     z-index: 200;
-    /*visibility: hidden;*/
+    visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: grey;
+    background-color: rgb(92, 92, 92);
 }
 
 .closeButton{
-    color: pink;
+    color: rgb(94, 94, 94);
     font-size: 40px;
     margin: 0;
     position: absolute;
@@ -49,7 +49,7 @@ nav{
 .burgerLine{
     width: 90px;
     height: 5px;
-    background-color: pink;
+    background-color: rgb(83, 82, 82);
     margin-bottom: 10px;
 }
 
