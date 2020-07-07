@@ -37,3 +37,45 @@ nav{
     right: 30px;
     cursor: pointer;
 }
+
+.burgerIcon{
+    position: absolute;
+    top: 30px;
+    right: 36px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.burgerLine{
+    width: 90px;
+    height: 5px;
+    background-color: pink;
+    margin-bottom: 10px;
+}
+
+.navMenu{
+    flex-flow: column wrap;
+}
+
+.navMenu li{
+    list-style: none;
+}
+
+.navMenu li a{
+    color: pink;
+    text-decoration: none;
+    font-size: 55px;
+    display: inline-block;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    border-bottom: 1px solid pink;
+    transition: 0,2s ease all;
+}
+
+.navMenu li:last-child a{
+    border-bottom: 0;
+}
+
+.navMenu li:hover a{
+    background-color: rgb(107, 107, 107);
+}
